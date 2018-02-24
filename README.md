@@ -1,9 +1,9 @@
-Ethereum VM illustrated
+Ethereum EVM illustrated
 ========================
 
 This is an illustrated document about the EVM(Ethereum Virtual Machine).
 
-Here is: [Ethereum VM illustrated](http://takenobu-hs.github.io/downloads/ethereum_vm_illustrated.pdf) (PDF).
+Here is: [Ethereum EVM illustrated](http://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf) (PDF).
 
 Contents
 --------
@@ -11,23 +11,25 @@ Contents
 1 Introduction
   - Blockchain
   - World state
-  - Account and contract
+  - Account
   - Transaction
   - Message
-  - Decentraized database
+  - Decentralised database
+  - Atomicity and ordering
 
 2 Virtual machine
   - Ethereum virtual machine (EVM)
-  - Instruction set
   - Message call
-  - Code generation
-  - Gas
-  - Atomicity and ordering
-  - WASM
+  - Exception
+  - Gas and fee
+  - Instruction set
+  - Miscellaneous
 
-3 References
+Appendix A : Source information
+  - Implementation code in Geth
 
-Appendix A
+Appendix B : User interface
   - Web3 API
-  - Geth, Remix, Metamask, Truffle
-  - Consensus
+  - Geth, Mist, Solc, Remix, Truffle, ...
+
+References
