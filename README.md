@@ -15,18 +15,22 @@ Contents
   - Transaction
   - Message
   - Decentralised database
-  - Atomicity and ordering
+  - Atomicity and order
 
 2 Virtual machine
   - Ethereum virtual machine (EVM)
   - Message call
   - Exception
   - Gas and fee
+  - Input and output
+  - Byte order
   - Instruction set
   - Miscellaneous
 
-Appendix A : Source information
-  - Implementation code in Geth
+Appendix A : Implementation
+  - Source code in Geth
+  - EVM developer utility
+  - Solidity ABI
 
 Appendix B : User interface
   - Web3 API
